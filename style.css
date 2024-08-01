@@ -24,6 +24,10 @@ body {
     list-style: none;
     margin: 50px 0px 0px 0px;
 }
+.navbar a:hover {
+    color: rgb(231, 111, 81);
+    transition: 0.2s;
+}
 .navbar a {
     text-decoration: none;
     margin-right: 36px;
@@ -47,4 +51,61 @@ body {
     background: rgb(231, 111, 81);
     border: none;
     cursor: pointer;
+}
+.login:hover {
+    background-color: red;
+    transition: 0.4s;
+}
+/* banner section */
+.banner-img {
+    width: 552px;
+    height: 447px;
+}
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+.sub-title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.banner-description {
+    color: rgb(224, 224, 224);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    width: 456px;
+    text-align: justify;
+    margin-top: 0px;
+}
+.banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    background: rgb(231, 111, 81);
+    border: none;
+    cursor: pointer;
+}
+.banner-btn:hover {
+    background-color: red;
+    transition: 0.4s;
 }
