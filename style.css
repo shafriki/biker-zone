@@ -109,3 +109,38 @@ body {
     background-color: red;
     transition: 0.4s;
 }
+.bike {
+    width: 288px;
+    height: 243px;
+}
+.featured-bike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.bikes {
+    display: flex;
+    gap: 158px;
+    margin: 70px 0px 100px 0px;
+}
+.featured-title {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.featured-collection {
+    color: rgb(231, 111, 81);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.featured-bike hr{
+    border: 1px solid rgb(231, 111, 81);
+    width: 58px;
+    margin-top: 0px;
+}
