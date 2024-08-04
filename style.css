@@ -207,8 +207,75 @@ body {
     font-weight: 600;
     margin: 0px;
 }
-.stars {
+ .stars {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+.stars img {
     width: 18.34px;
     height: 18.35px;
+}
+.client-img {
+    width: 149px;
+    height: 149px;
+} 
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 40px 35px 40px 35px;
+    width: 322px;
+    height: 448.01px;
+    
+}
+.client-container {
+    display: flex;
+    align-items: center;
+    margin: 50px 120px 50px 120px;
+    gap: 44px;
+}
+.clint-description {
+    width: 252px;
+    height: 104px;
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 33px 0px 16px 0px;
+}
+.clint-name {
+    color: rgb(35, 166, 240);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.clint-occupation {
+    color: rgb(37, 43, 66);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.clients-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: rgb(10, 8, 38);
+}
+.clients-title span {
+    color: rgb(231, 111, 81);
 }
