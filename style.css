@@ -279,3 +279,39 @@ body {
 .clients-title span {
     color: rgb(231, 111, 81);
 }
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.question-container img {
+    width: 424.8px;
+    height: 397.5px;
+    border: 2px dashed gray;
+}
+.q-con {
+    display: flex;
+    gap: 120px;
+    margin: 50px 100px 50px 100px;
+}
+.question-title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.question-title span {
+    color: rgb(231, 111, 81);
+}
+.question {
+    color: rgb(56, 56, 56);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 421px;
+}
+* {
+    border: 1px solid red;
+}
