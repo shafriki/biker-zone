@@ -328,3 +328,36 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+
+/* * {
+    border: 1px solid red;
+} */
+.footer-content {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-color: black;
+}
+.footer-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+.footer-imgs img {
+    width: 133.26px;
+    height: 38.26px;
+}
+.imgs-title {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.footer-description {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
